@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import { useStore } from '../store';
 import { SCENARIOS } from '../data/scenarios';
 import { THEMES } from '../data/themes';
-import type { Message } from '../types';
 
 const AI_REPLIES: Record<string, string[]> = {
   career:     ["That's a fair point. I'll need to check what's possible within the current budget cycle.", "I hear you — the work you've done on Q2 is hard to argue with. Let me think about timing.", "Can you send me the market data you mentioned? That would help me make the case upward."],
