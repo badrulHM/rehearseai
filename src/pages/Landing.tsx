@@ -1,7 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { useStore } from '../store';
 import { THEMES } from '../data/themes';
-import Btn from '../components/Btn';
 
 const TRUSTED_BY = ['Google', 'Microsoft', 'Salesforce', 'HubSpot', 'Atlassian', 'Notion', 'Stripe', 'Figma', 'Linear', 'Vercel'];
 
